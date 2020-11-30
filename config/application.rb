@@ -137,16 +137,16 @@ module Greenlight
     # DEFAULTS
 
     # Default branding image if the user does not specify one
-    config.branding_image_default = "https://raw.githubusercontent.com/bigbluebutton/greenlight/master/app/assets/images/logo_with_text.png"
+    config.branding_image_default = "https://sindad.com/wp-content/themes/sindad/dist/images/logo.png"
 
     # Default primary color if the user does not specify one
-    config.primary_color_default = "#467fcf"
+    config.primary_color_default = "#1DAF8E"
 
     # Default primary color lighten if the user does not specify one
-    config.primary_color_lighten_default = "#e8eff9"
+    config.primary_color_lighten_default = "#C2F3E8"
 
     # Default primary color darken if the user does not specify one
-    config.primary_color_darken_default = "#316cbe"
+    config.primary_color_darken_default = "#16836B"
 
     # Default registration method if the user does not specify one
     config.registration_method_default = if ENV["DEFAULT_REGISTRATION"] == "invite"
@@ -154,7 +154,7 @@ module Greenlight
     elsif ENV["DEFAULT_REGISTRATION"] == "approval"
       config.registration_methods[:approval]
     else
-      config.registration_methods[:open]
+      config.registration_methods[:approval]
     end
 
     # Default limit on number of rooms users can create
@@ -167,7 +167,7 @@ module Greenlight
     config.require_consent_default = "false"
 
     # Don't allow users to preupload presentations by default
-    config.preupload_presentation_default = "false"
+    config.preupload_presentation_default = "true"
 
     # Default admin password
     config.admin_password_default = ENV['ADMIN_PASSWORD'] || 'administrator'
