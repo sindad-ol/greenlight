@@ -1,3 +1,35 @@
+@font-face {
+  font-family: 'Vazir';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: asset-url(font-path('Vazir/Vazir.ttf')) format('truetype');
+  unicode-range: U+0600-06FF;
+}
+@font-face {
+  font-family: 'Vazir';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: asset-url(font-path('Vazir/Vazir-Light.ttf')) format('truetype');
+  unicode-range: U+0600-06FF;
+}
+@font-face {
+  font-family: 'Vazir';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: asset-url(font-path('Vazir/Vazir-Medium.ttf')) format('truetype');
+  unicode-range: U+0600-06FF;
+}
+@font-face {
+  font-family: 'Vazir';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: asset-url(font-path('Vazir/Vazir-Bold.ttf')) format('truetype');
+  unicode-range: U+0600-06FF;
+}
 /* cyrillic-ext */
 @font-face {
   font-family: 'Source Sans Pro';
