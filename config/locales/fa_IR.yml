@@ -280,12 +280,13 @@ fa_IR:
   footer:
     legal: قوانین
     privpolicy: سیاست حریم خصوصی
-    powered_by: "استفاده شده از %{href}."
+    powered_by: "قدرت گرفته از %{href}."
   forgot_password:
     subtitle: فراموشی رمز عبور
     email: ایمیل
     submit: ارسال
   go_back: بازگشت
+  sindad: سینداد
   greenlight: گرین لایت
   header:
     all_recordings: تمام جلسات ضبط شده
